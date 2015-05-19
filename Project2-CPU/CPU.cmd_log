@@ -1,0 +1,645 @@
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+vhdtdtfi -lang verilog -prj Project2-CPU -o C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.tfi -lib work C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU//CPU.v -module CPU -template C:/Xilinx/14.2/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -t 1 CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/nesmabadr.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc3s100e-cp132-4 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o CPU_map.ncd CPU.ngd CPU.pcf 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 
+xst -intstyle ise -ifn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.xst" -ofn "C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CPUucf.ucf -p xc6slx16-csg324-3 CPU.ngc CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CPU_map.ncd CPU.ngd CPU.pcf 
+par -w -intstyle ise -ol high -mt off CPU_map.ncd CPU.ncd CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf CPUucf.ucf 
+bitgen -intstyle ise -f CPU.ut CPU.ncd 

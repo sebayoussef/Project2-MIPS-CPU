@@ -1,0 +1,3 @@
+verilog work "../../../../../exp10/exp10/regfile.v"
+verilog work "ipcore_dir/Memory2_synth.v"
+verilog work "ipcore_dir/Memory_synth.v"

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\CPU.ncd
+OUTFILE=C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\CPU.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU
+LICENSE=WebPack
+USER_INFO=210684813_0_0_436

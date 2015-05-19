@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+CPU instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .instr(instr), 
+    .A_data(A_data), 
+    .B_data(B_data), 
+    .ALUresult(ALUresult), 
+    .Zflag(Zflag)
+    );
+
+

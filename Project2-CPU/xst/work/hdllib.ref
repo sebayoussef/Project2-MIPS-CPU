@@ -1,0 +1,14 @@
+MO ControlUnit NULL ControlUnit.v vlg71/_control_unit.bin 1431938401
+MO Mem2 NULL ipcore_dir/Mem2.v vlg49/_mem2.bin 1431937162
+MO SignExt NULL SignExt.v vlg5E/_sign_ext.bin 1431938401
+MO regfile NULL ../../../../../exp10/exp10/regfile.v vlg72/regfile.bin 1431938401
+MO CPU NULL CPU.v vlg70/_c_p_u.bin 1431938401
+MO Memory2 NULL ipcore_dir/Memory2.v vlg1F/_memory2.bin 1431938401
+MO clkdiv NULL ../../../../../exp8/exp8/clkdiv.v vlg31/clkdiv.bin 1431869003
+MO ReadInstr NULL ReadInstr.v vlg50/_read_instr.bin 1431938401
+MO Memory NULL ipcore_dir/Memory.v vlg49/_memory.bin 1431938401
+MO binto7seg NULL binto7seg.v vlg6E/binto7seg.bin 1431938401
+MO bindecoder NULL ../../../../../exp8/exp8/bindecoder.v vlg4B/bindecoder.bin 1431938401
+MO counter NULL ../../../../../exp10/exp10/counter.v vlg10/counter.bin 1431938401
+MO ALU NULL ALU.v vlg2A/_a_l_u.bin 1431938401
+MO counter2 NULL ../../../../../exp8/exp8/counter2.v vlg02/counter2.bin 1431938401

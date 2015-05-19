@@ -1,0 +1,93 @@
+ISim log file
+Running: C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\CPUsim_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/sebayoussef.AUC/Desktop/Project2-CPU/Project2-CPU/CPUsim_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance uut/b2/, width 1 of formal port en is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CPUsim.uut.M.inst.\native_mem_module.blk_mem_gen_v7_2_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CPUsim.uut.M2.inst.\native_mem_module.blk_mem_gen_v7_2_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+blk_mem_gen_v7_2 collision detected at time: 150000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 170000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 190000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 210000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 230000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 250000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 270000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 290000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 310000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 330000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 350000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 370000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 390000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 410000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 430000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 450000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 470000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 490000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 510000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 530000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 550000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 570000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 590000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 610000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 630000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 650000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 670000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 690000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 710000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 730000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 750000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 770000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 790000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 810000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 830000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 850000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 870000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 890000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 910000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 930000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 950000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 970000, A write address: 0, B  read address: 0
+blk_mem_gen_v7_2 collision detected at time: 990000, A write address: 0, B  read address: 0
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance uut/b2/, width 1 of formal port en is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CPUsim.uut.M.inst.\native_mem_module.blk_mem_gen_v7_2_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CPUsim.uut.M2.inst.\native_mem_module.blk_mem_gen_v7_2_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+ISim P.28xd (signature 0xa0883be4)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance uut/b2/, width 1 of formal port en is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CPUsim.uut.M.inst.\native_mem_module.blk_mem_gen_v7_2_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module CPUsim.uut.M2.inst.\native_mem_module.blk_mem_gen_v7_2_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.

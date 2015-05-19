@@ -1,0 +1,14 @@
+Net "rst" loc = T10;
+Net "clk" loc = V10;
+Net "sel" loc = T9;
+NET "out[6]" LOC = T17;
+NET "out[5]" LOC = T18;
+NET "out[4]" LOC = U17;
+NET "out[3]" LOC = U18;
+NET "out[2]" LOC = M14;
+NET "out[1]" LOC = N14;
+NET "out[0]" LOC = L14;
+net "decoderout[0]" loc = N16;
+net "decoderout[1]" loc = N15;
+net "decoderout[2]" loc = P18;
+net "decoderout[3]" loc = P17;

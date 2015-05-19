@@ -1,0 +1,1850 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: CPU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CPU.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CPU"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : CPU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\SignExt.v" into library work
+Parsing module <SignExt>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ReadInstr.v" into library work
+Parsing module <ReadInstr>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ipcore_dir\Memory_2_synth.v" into library work
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ipcore_dir\Memory_2.v" into library work
+Parsing module <Memory_2>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ipcore_dir\Memory_synth.v" into library work
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ipcore_dir\Memory.v" into library work
+Parsing module <Memory>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ControlUnit.v" into library work
+Parsing module <ControlUnit>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\binto7seg.v" into library work
+Parsing module <binto7seg>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\New folder\counter2.v" into library work
+Parsing module <counter2>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\New folder\clkdiv.v" into library work
+Parsing module <clkdiv>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\New folder\bindecoder.v" into library work
+Parsing module <bindecoder>.
+Analyzing Verilog file "C:\exp10\exp10\regfile.v" into library work
+Parsing module <regfile>.
+Analyzing Verilog file "C:\exp10\exp10\counter.v" into library work
+Parsing module <counter>.
+Analyzing Verilog file "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\CPU.v" into library work
+Parsing module <CPU>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <CPU>.
+
+Elaborating module <Memory>.
+WARNING:HDLCompiler:1499 - "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ipcore_dir\Memory.v" Line 39: Empty module <Memory> remains a black box.
+
+Elaborating module <clkdiv>.
+
+Elaborating module <ALU>.
+
+Elaborating module <ControlUnit>.
+WARNING:HDLCompiler:1127 - "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\CPU.v" Line 54: Assignment to memread ignored, since the identifier is never used
+
+Elaborating module <ReadInstr>.
+
+Elaborating module <counter>.
+WARNING:HDLCompiler:413 - "C:\exp10\exp10\counter.v" Line 39: Result of 18-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:\exp10\exp10\counter.v" Line 45: Result of 26-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:\exp10\exp10\counter.v" Line 46: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <regfile>.
+
+Elaborating module <SignExt>.
+
+Elaborating module <counter2>.
+
+Elaborating module <bindecoder>.
+WARNING:HDLCompiler:189 - "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\CPU.v" Line 60: Size mismatch in connection of port <en>. Formal port size is 1-bit while actual signal size is 32-bit.
+
+Elaborating module <binto7seg>.
+
+Elaborating module <Memory_2>.
+WARNING:HDLCompiler:1499 - "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ipcore_dir\Memory_2.v" Line 39: Empty module <Memory_2> remains a black box.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <CPU>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\CPU.v".
+INFO:Xst:3210 - "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\CPU.v" line 54: Output port <Mem_read> of the instance <c1> is unconnected or connected to loadless signal.
+    Found 7-bit 4-to-1 multiplexer for signal <out> created at line 72.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <CPU> synthesized.
+
+Synthesizing Unit <clkdiv>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\New folder\clkdiv.v".
+    Found 32-bit register for signal <x>.
+    Found 1-bit register for signal <out>.
+    Found 32-bit adder for signal <x[31]_GND_3_o_add_4_OUT> created at line 49.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <clkdiv> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ALU.v".
+    Found 32-bit subtractor for signal <A[31]_B[31]_sub_8_OUT> created at line 38.
+    Found 32-bit adder for signal <A[31]_B[31]_add_6_OUT> created at line 37.
+    Found 32-bit comparator equal for signal <n0000> created at line 30
+    Found 32-bit comparator greater for signal <A[31]_B[31]_LessThan_11_o> created at line 41
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <ALU> synthesized.
+
+Synthesizing Unit <ControlUnit>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ControlUnit.v".
+WARNING:Xst:737 - Found 1-bit latch for signal <datasource>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUsel<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUsel<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUsel<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUsel<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUsel<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ALUsel<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <regsel>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   8 Latch(s).
+	inferred  20 Multiplexer(s).
+Unit <ControlUnit> synthesized.
+
+Synthesizing Unit <ReadInstr>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\ReadInstr.v".
+WARNING:Xst:647 - Input <word<31:26>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <ReadInstr> synthesized.
+
+Synthesizing Unit <counter>.
+    Related source file is "C:\exp10\exp10\counter.v".
+WARNING:Xst:647 - Input <Joffset<25:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <out>.
+    Found 8-bit register for signal <jrreg>.
+    Found 17-bit adder for signal <n0037> created at line 39.
+    Found 17-bit adder for signal <n0020> created at line 39.
+    Found 8-bit adder for signal <out[7]_GND_16_o_add_2_OUT> created at line 46.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <counter> synthesized.
+
+Synthesizing Unit <regfile>.
+    Related source file is "C:\exp10\exp10\regfile.v".
+    Register <Regfile<5><3>> equivalent to <Regfile<5><6>> has been removed
+    Register <Regfile<5><2>> equivalent to <Regfile<5><5>> has been removed
+    Register <Regfile<5><1>> equivalent to <Regfile<5><5>> has been removed
+    Found 1-bit register for signal <Regfile<31><30>>.
+    Found 1-bit register for signal <Regfile<31><29>>.
+    Found 1-bit register for signal <Regfile<31><28>>.
+    Found 1-bit register for signal <Regfile<31><27>>.
+    Found 1-bit register for signal <Regfile<31><26>>.
+    Found 1-bit register for signal <Regfile<31><25>>.
+    Found 1-bit register for signal <Regfile<31><24>>.
+    Found 1-bit register for signal <Regfile<31><23>>.
+    Found 1-bit register for signal <Regfile<31><22>>.
+    Found 1-bit register for signal <Regfile<31><21>>.
+    Found 1-bit register for signal <Regfile<31><20>>.
+    Found 1-bit register for signal <Regfile<31><19>>.
+    Found 1-bit register for signal <Regfile<31><18>>.
+    Found 1-bit register for signal <Regfile<31><17>>.
+    Found 1-bit register for signal <Regfile<31><16>>.
+    Found 1-bit register for signal <Regfile<31><15>>.
+    Found 1-bit register for signal <Regfile<31><14>>.
+    Found 1-bit register for signal <Regfile<31><13>>.
+    Found 1-bit register for signal <Regfile<31><12>>.
+    Found 1-bit register for signal <Regfile<31><11>>.
+    Found 1-bit register for signal <Regfile<31><10>>.
+    Found 1-bit register for signal <Regfile<31><9>>.
+    Found 1-bit register for signal <Regfile<31><8>>.
+    Found 1-bit register for signal <Regfile<31><7>>.
+    Found 1-bit register for signal <Regfile<31><6>>.
+    Found 1-bit register for signal <Regfile<31><5>>.
+    Found 1-bit register for signal <Regfile<31><4>>.
+    Found 1-bit register for signal <Regfile<31><3>>.
+    Found 1-bit register for signal <Regfile<31><2>>.
+    Found 1-bit register for signal <Regfile<31><1>>.
+    Found 1-bit register for signal <Regfile<31><0>>.
+    Found 1-bit register for signal <Regfile<30><31>>.
+    Found 1-bit register for signal <Regfile<30><30>>.
+    Found 1-bit register for signal <Regfile<30><29>>.
+    Found 1-bit register for signal <Regfile<30><28>>.
+    Found 1-bit register for signal <Regfile<30><27>>.
+    Found 1-bit register for signal <Regfile<30><26>>.
+    Found 1-bit register for signal <Regfile<30><25>>.
+    Found 1-bit register for signal <Regfile<30><24>>.
+    Found 1-bit register for signal <Regfile<30><23>>.
+    Found 1-bit register for signal <Regfile<30><22>>.
+    Found 1-bit register for signal <Regfile<30><21>>.
+    Found 1-bit register for signal <Regfile<30><20>>.
+    Found 1-bit register for signal <Regfile<30><19>>.
+    Found 1-bit register for signal <Regfile<30><18>>.
+    Found 1-bit register for signal <Regfile<30><17>>.
+    Found 1-bit register for signal <Regfile<30><16>>.
+    Found 1-bit register for signal <Regfile<30><15>>.
+    Found 1-bit register for signal <Regfile<30><14>>.
+    Found 1-bit register for signal <Regfile<30><13>>.
+    Found 1-bit register for signal <Regfile<30><12>>.
+    Found 1-bit register for signal <Regfile<30><11>>.
+    Found 1-bit register for signal <Regfile<30><10>>.
+    Found 1-bit register for signal <Regfile<30><9>>.
+    Found 1-bit register for signal <Regfile<30><8>>.
+    Found 1-bit register for signal <Regfile<30><7>>.
+    Found 1-bit register for signal <Regfile<30><6>>.
+    Found 1-bit register for signal <Regfile<30><5>>.
+    Found 1-bit register for signal <Regfile<30><4>>.
+    Found 1-bit register for signal <Regfile<30><3>>.
+    Found 1-bit register for signal <Regfile<30><2>>.
+    Found 1-bit register for signal <Regfile<30><1>>.
+    Found 1-bit register for signal <Regfile<30><0>>.
+    Found 1-bit register for signal <Regfile<29><31>>.
+    Found 1-bit register for signal <Regfile<29><30>>.
+    Found 1-bit register for signal <Regfile<29><29>>.
+    Found 1-bit register for signal <Regfile<29><28>>.
+    Found 1-bit register for signal <Regfile<29><27>>.
+    Found 1-bit register for signal <Regfile<29><26>>.
+    Found 1-bit register for signal <Regfile<29><25>>.
+    Found 1-bit register for signal <Regfile<29><24>>.
+    Found 1-bit register for signal <Regfile<29><23>>.
+    Found 1-bit register for signal <Regfile<29><22>>.
+    Found 1-bit register for signal <Regfile<29><21>>.
+    Found 1-bit register for signal <Regfile<29><20>>.
+    Found 1-bit register for signal <Regfile<29><19>>.
+    Found 1-bit register for signal <Regfile<29><18>>.
+    Found 1-bit register for signal <Regfile<29><17>>.
+    Found 1-bit register for signal <Regfile<29><16>>.
+    Found 1-bit register for signal <Regfile<29><15>>.
+    Found 1-bit register for signal <Regfile<29><14>>.
+    Found 1-bit register for signal <Regfile<29><13>>.
+    Found 1-bit register for signal <Regfile<29><12>>.
+    Found 1-bit register for signal <Regfile<29><11>>.
+    Found 1-bit register for signal <Regfile<29><10>>.
+    Found 1-bit register for signal <Regfile<29><9>>.
+    Found 1-bit register for signal <Regfile<29><8>>.
+    Found 1-bit register for signal <Regfile<29><7>>.
+    Found 1-bit register for signal <Regfile<29><6>>.
+    Found 1-bit register for signal <Regfile<29><5>>.
+    Found 1-bit register for signal <Regfile<29><4>>.
+    Found 1-bit register for signal <Regfile<29><3>>.
+    Found 1-bit register for signal <Regfile<29><2>>.
+    Found 1-bit register for signal <Regfile<29><1>>.
+    Found 1-bit register for signal <Regfile<29><0>>.
+    Found 1-bit register for signal <Regfile<28><31>>.
+    Found 1-bit register for signal <Regfile<28><30>>.
+    Found 1-bit register for signal <Regfile<28><29>>.
+    Found 1-bit register for signal <Regfile<28><28>>.
+    Found 1-bit register for signal <Regfile<28><27>>.
+    Found 1-bit register for signal <Regfile<28><26>>.
+    Found 1-bit register for signal <Regfile<28><25>>.
+    Found 1-bit register for signal <Regfile<28><24>>.
+    Found 1-bit register for signal <Regfile<28><23>>.
+    Found 1-bit register for signal <Regfile<28><22>>.
+    Found 1-bit register for signal <Regfile<28><21>>.
+    Found 1-bit register for signal <Regfile<28><20>>.
+    Found 1-bit register for signal <Regfile<28><19>>.
+    Found 1-bit register for signal <Regfile<28><18>>.
+    Found 1-bit register for signal <Regfile<28><17>>.
+    Found 1-bit register for signal <Regfile<28><16>>.
+    Found 1-bit register for signal <Regfile<28><15>>.
+    Found 1-bit register for signal <Regfile<28><14>>.
+    Found 1-bit register for signal <Regfile<28><13>>.
+    Found 1-bit register for signal <Regfile<28><12>>.
+    Found 1-bit register for signal <Regfile<28><11>>.
+    Found 1-bit register for signal <Regfile<28><10>>.
+    Found 1-bit register for signal <Regfile<28><9>>.
+    Found 1-bit register for signal <Regfile<28><8>>.
+    Found 1-bit register for signal <Regfile<28><7>>.
+    Found 1-bit register for signal <Regfile<28><6>>.
+    Found 1-bit register for signal <Regfile<28><5>>.
+    Found 1-bit register for signal <Regfile<28><4>>.
+    Found 1-bit register for signal <Regfile<28><3>>.
+    Found 1-bit register for signal <Regfile<28><2>>.
+    Found 1-bit register for signal <Regfile<28><1>>.
+    Found 1-bit register for signal <Regfile<28><0>>.
+    Found 1-bit register for signal <Regfile<27><31>>.
+    Found 1-bit register for signal <Regfile<27><30>>.
+    Found 1-bit register for signal <Regfile<27><29>>.
+    Found 1-bit register for signal <Regfile<27><28>>.
+    Found 1-bit register for signal <Regfile<27><27>>.
+    Found 1-bit register for signal <Regfile<27><26>>.
+    Found 1-bit register for signal <Regfile<27><25>>.
+    Found 1-bit register for signal <Regfile<27><24>>.
+    Found 1-bit register for signal <Regfile<27><23>>.
+    Found 1-bit register for signal <Regfile<27><22>>.
+    Found 1-bit register for signal <Regfile<27><21>>.
+    Found 1-bit register for signal <Regfile<27><20>>.
+    Found 1-bit register for signal <Regfile<27><19>>.
+    Found 1-bit register for signal <Regfile<27><18>>.
+    Found 1-bit register for signal <Regfile<27><17>>.
+    Found 1-bit register for signal <Regfile<27><16>>.
+    Found 1-bit register for signal <Regfile<27><15>>.
+    Found 1-bit register for signal <Regfile<27><14>>.
+    Found 1-bit register for signal <Regfile<27><13>>.
+    Found 1-bit register for signal <Regfile<27><12>>.
+    Found 1-bit register for signal <Regfile<27><11>>.
+    Found 1-bit register for signal <Regfile<27><10>>.
+    Found 1-bit register for signal <Regfile<27><9>>.
+    Found 1-bit register for signal <Regfile<27><8>>.
+    Found 1-bit register for signal <Regfile<27><7>>.
+    Found 1-bit register for signal <Regfile<27><6>>.
+    Found 1-bit register for signal <Regfile<27><5>>.
+    Found 1-bit register for signal <Regfile<27><4>>.
+    Found 1-bit register for signal <Regfile<27><3>>.
+    Found 1-bit register for signal <Regfile<27><2>>.
+    Found 1-bit register for signal <Regfile<27><1>>.
+    Found 1-bit register for signal <Regfile<27><0>>.
+    Found 1-bit register for signal <Regfile<26><31>>.
+    Found 1-bit register for signal <Regfile<26><30>>.
+    Found 1-bit register for signal <Regfile<26><29>>.
+    Found 1-bit register for signal <Regfile<26><28>>.
+    Found 1-bit register for signal <Regfile<26><27>>.
+    Found 1-bit register for signal <Regfile<26><26>>.
+    Found 1-bit register for signal <Regfile<26><25>>.
+    Found 1-bit register for signal <Regfile<26><24>>.
+    Found 1-bit register for signal <Regfile<26><23>>.
+    Found 1-bit register for signal <Regfile<26><22>>.
+    Found 1-bit register for signal <Regfile<26><21>>.
+    Found 1-bit register for signal <Regfile<26><20>>.
+    Found 1-bit register for signal <Regfile<26><19>>.
+    Found 1-bit register for signal <Regfile<26><18>>.
+    Found 1-bit register for signal <Regfile<26><17>>.
+    Found 1-bit register for signal <Regfile<26><16>>.
+    Found 1-bit register for signal <Regfile<26><15>>.
+    Found 1-bit register for signal <Regfile<26><14>>.
+    Found 1-bit register for signal <Regfile<26><13>>.
+    Found 1-bit register for signal <Regfile<26><12>>.
+    Found 1-bit register for signal <Regfile<26><11>>.
+    Found 1-bit register for signal <Regfile<26><10>>.
+    Found 1-bit register for signal <Regfile<26><9>>.
+    Found 1-bit register for signal <Regfile<26><8>>.
+    Found 1-bit register for signal <Regfile<26><7>>.
+    Found 1-bit register for signal <Regfile<26><6>>.
+    Found 1-bit register for signal <Regfile<26><5>>.
+    Found 1-bit register for signal <Regfile<26><4>>.
+    Found 1-bit register for signal <Regfile<26><3>>.
+    Found 1-bit register for signal <Regfile<26><2>>.
+    Found 1-bit register for signal <Regfile<26><1>>.
+    Found 1-bit register for signal <Regfile<26><0>>.
+    Found 1-bit register for signal <Regfile<25><31>>.
+    Found 1-bit register for signal <Regfile<25><30>>.
+    Found 1-bit register for signal <Regfile<25><29>>.
+    Found 1-bit register for signal <Regfile<25><28>>.
+    Found 1-bit register for signal <Regfile<25><27>>.
+    Found 1-bit register for signal <Regfile<25><26>>.
+    Found 1-bit register for signal <Regfile<25><25>>.
+    Found 1-bit register for signal <Regfile<25><24>>.
+    Found 1-bit register for signal <Regfile<25><23>>.
+    Found 1-bit register for signal <Regfile<25><22>>.
+    Found 1-bit register for signal <Regfile<25><21>>.
+    Found 1-bit register for signal <Regfile<25><20>>.
+    Found 1-bit register for signal <Regfile<25><19>>.
+    Found 1-bit register for signal <Regfile<25><18>>.
+    Found 1-bit register for signal <Regfile<25><17>>.
+    Found 1-bit register for signal <Regfile<25><16>>.
+    Found 1-bit register for signal <Regfile<25><15>>.
+    Found 1-bit register for signal <Regfile<25><14>>.
+    Found 1-bit register for signal <Regfile<25><13>>.
+    Found 1-bit register for signal <Regfile<25><12>>.
+    Found 1-bit register for signal <Regfile<25><11>>.
+    Found 1-bit register for signal <Regfile<25><10>>.
+    Found 1-bit register for signal <Regfile<25><9>>.
+    Found 1-bit register for signal <Regfile<25><8>>.
+    Found 1-bit register for signal <Regfile<25><7>>.
+    Found 1-bit register for signal <Regfile<25><6>>.
+    Found 1-bit register for signal <Regfile<25><5>>.
+    Found 1-bit register for signal <Regfile<25><4>>.
+    Found 1-bit register for signal <Regfile<25><3>>.
+    Found 1-bit register for signal <Regfile<25><2>>.
+    Found 1-bit register for signal <Regfile<25><1>>.
+    Found 1-bit register for signal <Regfile<25><0>>.
+    Found 1-bit register for signal <Regfile<24><31>>.
+    Found 1-bit register for signal <Regfile<24><30>>.
+    Found 1-bit register for signal <Regfile<24><29>>.
+    Found 1-bit register for signal <Regfile<24><28>>.
+    Found 1-bit register for signal <Regfile<24><27>>.
+    Found 1-bit register for signal <Regfile<24><26>>.
+    Found 1-bit register for signal <Regfile<24><25>>.
+    Found 1-bit register for signal <Regfile<24><24>>.
+    Found 1-bit register for signal <Regfile<24><23>>.
+    Found 1-bit register for signal <Regfile<24><22>>.
+    Found 1-bit register for signal <Regfile<24><21>>.
+    Found 1-bit register for signal <Regfile<24><20>>.
+    Found 1-bit register for signal <Regfile<24><19>>.
+    Found 1-bit register for signal <Regfile<24><18>>.
+    Found 1-bit register for signal <Regfile<24><17>>.
+    Found 1-bit register for signal <Regfile<24><16>>.
+    Found 1-bit register for signal <Regfile<24><15>>.
+    Found 1-bit register for signal <Regfile<24><14>>.
+    Found 1-bit register for signal <Regfile<24><13>>.
+    Found 1-bit register for signal <Regfile<24><12>>.
+    Found 1-bit register for signal <Regfile<24><11>>.
+    Found 1-bit register for signal <Regfile<24><10>>.
+    Found 1-bit register for signal <Regfile<24><9>>.
+    Found 1-bit register for signal <Regfile<24><8>>.
+    Found 1-bit register for signal <Regfile<24><7>>.
+    Found 1-bit register for signal <Regfile<24><6>>.
+    Found 1-bit register for signal <Regfile<24><5>>.
+    Found 1-bit register for signal <Regfile<24><4>>.
+    Found 1-bit register for signal <Regfile<24><3>>.
+    Found 1-bit register for signal <Regfile<24><2>>.
+    Found 1-bit register for signal <Regfile<24><1>>.
+    Found 1-bit register for signal <Regfile<24><0>>.
+    Found 1-bit register for signal <Regfile<23><31>>.
+    Found 1-bit register for signal <Regfile<23><30>>.
+    Found 1-bit register for signal <Regfile<23><29>>.
+    Found 1-bit register for signal <Regfile<23><28>>.
+    Found 1-bit register for signal <Regfile<23><27>>.
+    Found 1-bit register for signal <Regfile<23><26>>.
+    Found 1-bit register for signal <Regfile<23><25>>.
+    Found 1-bit register for signal <Regfile<23><24>>.
+    Found 1-bit register for signal <Regfile<23><23>>.
+    Found 1-bit register for signal <Regfile<23><22>>.
+    Found 1-bit register for signal <Regfile<23><21>>.
+    Found 1-bit register for signal <Regfile<23><20>>.
+    Found 1-bit register for signal <Regfile<23><19>>.
+    Found 1-bit register for signal <Regfile<23><18>>.
+    Found 1-bit register for signal <Regfile<23><17>>.
+    Found 1-bit register for signal <Regfile<23><16>>.
+    Found 1-bit register for signal <Regfile<23><15>>.
+    Found 1-bit register for signal <Regfile<23><14>>.
+    Found 1-bit register for signal <Regfile<23><13>>.
+    Found 1-bit register for signal <Regfile<23><12>>.
+    Found 1-bit register for signal <Regfile<23><11>>.
+    Found 1-bit register for signal <Regfile<23><10>>.
+    Found 1-bit register for signal <Regfile<23><9>>.
+    Found 1-bit register for signal <Regfile<23><8>>.
+    Found 1-bit register for signal <Regfile<23><7>>.
+    Found 1-bit register for signal <Regfile<23><6>>.
+    Found 1-bit register for signal <Regfile<23><5>>.
+    Found 1-bit register for signal <Regfile<23><4>>.
+    Found 1-bit register for signal <Regfile<23><3>>.
+    Found 1-bit register for signal <Regfile<23><2>>.
+    Found 1-bit register for signal <Regfile<23><1>>.
+    Found 1-bit register for signal <Regfile<23><0>>.
+    Found 1-bit register for signal <Regfile<22><31>>.
+    Found 1-bit register for signal <Regfile<22><30>>.
+    Found 1-bit register for signal <Regfile<22><29>>.
+    Found 1-bit register for signal <Regfile<22><28>>.
+    Found 1-bit register for signal <Regfile<22><27>>.
+    Found 1-bit register for signal <Regfile<22><26>>.
+    Found 1-bit register for signal <Regfile<22><25>>.
+    Found 1-bit register for signal <Regfile<22><24>>.
+    Found 1-bit register for signal <Regfile<22><23>>.
+    Found 1-bit register for signal <Regfile<22><22>>.
+    Found 1-bit register for signal <Regfile<22><21>>.
+    Found 1-bit register for signal <Regfile<22><20>>.
+    Found 1-bit register for signal <Regfile<22><19>>.
+    Found 1-bit register for signal <Regfile<22><18>>.
+    Found 1-bit register for signal <Regfile<22><17>>.
+    Found 1-bit register for signal <Regfile<22><16>>.
+    Found 1-bit register for signal <Regfile<22><15>>.
+    Found 1-bit register for signal <Regfile<22><14>>.
+    Found 1-bit register for signal <Regfile<22><13>>.
+    Found 1-bit register for signal <Regfile<22><12>>.
+    Found 1-bit register for signal <Regfile<22><11>>.
+    Found 1-bit register for signal <Regfile<22><10>>.
+    Found 1-bit register for signal <Regfile<22><9>>.
+    Found 1-bit register for signal <Regfile<22><8>>.
+    Found 1-bit register for signal <Regfile<22><7>>.
+    Found 1-bit register for signal <Regfile<22><6>>.
+    Found 1-bit register for signal <Regfile<22><5>>.
+    Found 1-bit register for signal <Regfile<22><4>>.
+    Found 1-bit register for signal <Regfile<22><3>>.
+    Found 1-bit register for signal <Regfile<22><2>>.
+    Found 1-bit register for signal <Regfile<22><1>>.
+    Found 1-bit register for signal <Regfile<22><0>>.
+    Found 1-bit register for signal <Regfile<21><31>>.
+    Found 1-bit register for signal <Regfile<21><30>>.
+    Found 1-bit register for signal <Regfile<21><29>>.
+    Found 1-bit register for signal <Regfile<21><28>>.
+    Found 1-bit register for signal <Regfile<21><27>>.
+    Found 1-bit register for signal <Regfile<21><26>>.
+    Found 1-bit register for signal <Regfile<21><25>>.
+    Found 1-bit register for signal <Regfile<21><24>>.
+    Found 1-bit register for signal <Regfile<21><23>>.
+    Found 1-bit register for signal <Regfile<21><22>>.
+    Found 1-bit register for signal <Regfile<21><21>>.
+    Found 1-bit register for signal <Regfile<21><20>>.
+    Found 1-bit register for signal <Regfile<21><19>>.
+    Found 1-bit register for signal <Regfile<21><18>>.
+    Found 1-bit register for signal <Regfile<21><17>>.
+    Found 1-bit register for signal <Regfile<21><16>>.
+    Found 1-bit register for signal <Regfile<21><15>>.
+    Found 1-bit register for signal <Regfile<21><14>>.
+    Found 1-bit register for signal <Regfile<21><13>>.
+    Found 1-bit register for signal <Regfile<21><12>>.
+    Found 1-bit register for signal <Regfile<21><11>>.
+    Found 1-bit register for signal <Regfile<21><10>>.
+    Found 1-bit register for signal <Regfile<21><9>>.
+    Found 1-bit register for signal <Regfile<21><8>>.
+    Found 1-bit register for signal <Regfile<21><7>>.
+    Found 1-bit register for signal <Regfile<21><6>>.
+    Found 1-bit register for signal <Regfile<21><5>>.
+    Found 1-bit register for signal <Regfile<21><4>>.
+    Found 1-bit register for signal <Regfile<21><3>>.
+    Found 1-bit register for signal <Regfile<21><2>>.
+    Found 1-bit register for signal <Regfile<21><1>>.
+    Found 1-bit register for signal <Regfile<21><0>>.
+    Found 1-bit register for signal <Regfile<20><31>>.
+    Found 1-bit register for signal <Regfile<20><30>>.
+    Found 1-bit register for signal <Regfile<20><29>>.
+    Found 1-bit register for signal <Regfile<20><28>>.
+    Found 1-bit register for signal <Regfile<20><27>>.
+    Found 1-bit register for signal <Regfile<20><26>>.
+    Found 1-bit register for signal <Regfile<20><25>>.
+    Found 1-bit register for signal <Regfile<20><24>>.
+    Found 1-bit register for signal <Regfile<20><23>>.
+    Found 1-bit register for signal <Regfile<20><22>>.
+    Found 1-bit register for signal <Regfile<20><21>>.
+    Found 1-bit register for signal <Regfile<20><20>>.
+    Found 1-bit register for signal <Regfile<20><19>>.
+    Found 1-bit register for signal <Regfile<20><18>>.
+    Found 1-bit register for signal <Regfile<20><17>>.
+    Found 1-bit register for signal <Regfile<20><16>>.
+    Found 1-bit register for signal <Regfile<20><15>>.
+    Found 1-bit register for signal <Regfile<20><14>>.
+    Found 1-bit register for signal <Regfile<20><13>>.
+    Found 1-bit register for signal <Regfile<20><12>>.
+    Found 1-bit register for signal <Regfile<20><11>>.
+    Found 1-bit register for signal <Regfile<20><10>>.
+    Found 1-bit register for signal <Regfile<20><9>>.
+    Found 1-bit register for signal <Regfile<20><8>>.
+    Found 1-bit register for signal <Regfile<20><7>>.
+    Found 1-bit register for signal <Regfile<20><6>>.
+    Found 1-bit register for signal <Regfile<20><5>>.
+    Found 1-bit register for signal <Regfile<20><4>>.
+    Found 1-bit register for signal <Regfile<20><3>>.
+    Found 1-bit register for signal <Regfile<20><2>>.
+    Found 1-bit register for signal <Regfile<20><1>>.
+    Found 1-bit register for signal <Regfile<20><0>>.
+    Found 1-bit register for signal <Regfile<19><31>>.
+    Found 1-bit register for signal <Regfile<19><30>>.
+    Found 1-bit register for signal <Regfile<19><29>>.
+    Found 1-bit register for signal <Regfile<19><28>>.
+    Found 1-bit register for signal <Regfile<19><27>>.
+    Found 1-bit register for signal <Regfile<19><26>>.
+    Found 1-bit register for signal <Regfile<19><25>>.
+    Found 1-bit register for signal <Regfile<19><24>>.
+    Found 1-bit register for signal <Regfile<19><23>>.
+    Found 1-bit register for signal <Regfile<19><22>>.
+    Found 1-bit register for signal <Regfile<19><21>>.
+    Found 1-bit register for signal <Regfile<19><20>>.
+    Found 1-bit register for signal <Regfile<19><19>>.
+    Found 1-bit register for signal <Regfile<19><18>>.
+    Found 1-bit register for signal <Regfile<19><17>>.
+    Found 1-bit register for signal <Regfile<19><16>>.
+    Found 1-bit register for signal <Regfile<19><15>>.
+    Found 1-bit register for signal <Regfile<19><14>>.
+    Found 1-bit register for signal <Regfile<19><13>>.
+    Found 1-bit register for signal <Regfile<19><12>>.
+    Found 1-bit register for signal <Regfile<19><11>>.
+    Found 1-bit register for signal <Regfile<19><10>>.
+    Found 1-bit register for signal <Regfile<19><9>>.
+    Found 1-bit register for signal <Regfile<19><8>>.
+    Found 1-bit register for signal <Regfile<19><7>>.
+    Found 1-bit register for signal <Regfile<19><6>>.
+    Found 1-bit register for signal <Regfile<19><5>>.
+    Found 1-bit register for signal <Regfile<19><4>>.
+    Found 1-bit register for signal <Regfile<19><3>>.
+    Found 1-bit register for signal <Regfile<19><2>>.
+    Found 1-bit register for signal <Regfile<19><1>>.
+    Found 1-bit register for signal <Regfile<19><0>>.
+    Found 1-bit register for signal <Regfile<18><31>>.
+    Found 1-bit register for signal <Regfile<18><30>>.
+    Found 1-bit register for signal <Regfile<18><29>>.
+    Found 1-bit register for signal <Regfile<18><28>>.
+    Found 1-bit register for signal <Regfile<18><27>>.
+    Found 1-bit register for signal <Regfile<18><26>>.
+    Found 1-bit register for signal <Regfile<18><25>>.
+    Found 1-bit register for signal <Regfile<18><24>>.
+    Found 1-bit register for signal <Regfile<18><23>>.
+    Found 1-bit register for signal <Regfile<18><22>>.
+    Found 1-bit register for signal <Regfile<18><21>>.
+    Found 1-bit register for signal <Regfile<18><20>>.
+    Found 1-bit register for signal <Regfile<18><19>>.
+    Found 1-bit register for signal <Regfile<18><18>>.
+    Found 1-bit register for signal <Regfile<18><17>>.
+    Found 1-bit register for signal <Regfile<18><16>>.
+    Found 1-bit register for signal <Regfile<18><15>>.
+    Found 1-bit register for signal <Regfile<18><14>>.
+    Found 1-bit register for signal <Regfile<18><13>>.
+    Found 1-bit register for signal <Regfile<18><12>>.
+    Found 1-bit register for signal <Regfile<18><11>>.
+    Found 1-bit register for signal <Regfile<18><10>>.
+    Found 1-bit register for signal <Regfile<18><9>>.
+    Found 1-bit register for signal <Regfile<18><8>>.
+    Found 1-bit register for signal <Regfile<18><7>>.
+    Found 1-bit register for signal <Regfile<18><6>>.
+    Found 1-bit register for signal <Regfile<18><5>>.
+    Found 1-bit register for signal <Regfile<18><4>>.
+    Found 1-bit register for signal <Regfile<18><3>>.
+    Found 1-bit register for signal <Regfile<18><2>>.
+    Found 1-bit register for signal <Regfile<18><1>>.
+    Found 1-bit register for signal <Regfile<18><0>>.
+    Found 1-bit register for signal <Regfile<17><31>>.
+    Found 1-bit register for signal <Regfile<17><30>>.
+    Found 1-bit register for signal <Regfile<17><29>>.
+    Found 1-bit register for signal <Regfile<17><28>>.
+    Found 1-bit register for signal <Regfile<17><27>>.
+    Found 1-bit register for signal <Regfile<17><26>>.
+    Found 1-bit register for signal <Regfile<17><25>>.
+    Found 1-bit register for signal <Regfile<17><24>>.
+    Found 1-bit register for signal <Regfile<17><23>>.
+    Found 1-bit register for signal <Regfile<17><22>>.
+    Found 1-bit register for signal <Regfile<17><21>>.
+    Found 1-bit register for signal <Regfile<17><20>>.
+    Found 1-bit register for signal <Regfile<17><19>>.
+    Found 1-bit register for signal <Regfile<17><18>>.
+    Found 1-bit register for signal <Regfile<17><17>>.
+    Found 1-bit register for signal <Regfile<17><16>>.
+    Found 1-bit register for signal <Regfile<17><15>>.
+    Found 1-bit register for signal <Regfile<17><14>>.
+    Found 1-bit register for signal <Regfile<17><13>>.
+    Found 1-bit register for signal <Regfile<17><12>>.
+    Found 1-bit register for signal <Regfile<17><11>>.
+    Found 1-bit register for signal <Regfile<17><10>>.
+    Found 1-bit register for signal <Regfile<17><9>>.
+    Found 1-bit register for signal <Regfile<17><8>>.
+    Found 1-bit register for signal <Regfile<17><7>>.
+    Found 1-bit register for signal <Regfile<17><6>>.
+    Found 1-bit register for signal <Regfile<17><5>>.
+    Found 1-bit register for signal <Regfile<17><4>>.
+    Found 1-bit register for signal <Regfile<17><3>>.
+    Found 1-bit register for signal <Regfile<17><2>>.
+    Found 1-bit register for signal <Regfile<17><1>>.
+    Found 1-bit register for signal <Regfile<17><0>>.
+    Found 1-bit register for signal <Regfile<16><31>>.
+    Found 1-bit register for signal <Regfile<16><30>>.
+    Found 1-bit register for signal <Regfile<16><29>>.
+    Found 1-bit register for signal <Regfile<16><28>>.
+    Found 1-bit register for signal <Regfile<16><27>>.
+    Found 1-bit register for signal <Regfile<16><26>>.
+    Found 1-bit register for signal <Regfile<16><25>>.
+    Found 1-bit register for signal <Regfile<16><24>>.
+    Found 1-bit register for signal <Regfile<16><23>>.
+    Found 1-bit register for signal <Regfile<16><22>>.
+    Found 1-bit register for signal <Regfile<16><21>>.
+    Found 1-bit register for signal <Regfile<16><20>>.
+    Found 1-bit register for signal <Regfile<16><19>>.
+    Found 1-bit register for signal <Regfile<16><18>>.
+    Found 1-bit register for signal <Regfile<16><17>>.
+    Found 1-bit register for signal <Regfile<16><16>>.
+    Found 1-bit register for signal <Regfile<16><15>>.
+    Found 1-bit register for signal <Regfile<16><14>>.
+    Found 1-bit register for signal <Regfile<16><13>>.
+    Found 1-bit register for signal <Regfile<16><12>>.
+    Found 1-bit register for signal <Regfile<16><11>>.
+    Found 1-bit register for signal <Regfile<16><10>>.
+    Found 1-bit register for signal <Regfile<16><9>>.
+    Found 1-bit register for signal <Regfile<16><8>>.
+    Found 1-bit register for signal <Regfile<16><7>>.
+    Found 1-bit register for signal <Regfile<16><6>>.
+    Found 1-bit register for signal <Regfile<16><5>>.
+    Found 1-bit register for signal <Regfile<16><4>>.
+    Found 1-bit register for signal <Regfile<16><3>>.
+    Found 1-bit register for signal <Regfile<16><2>>.
+    Found 1-bit register for signal <Regfile<16><1>>.
+    Found 1-bit register for signal <Regfile<16><0>>.
+    Found 1-bit register for signal <Regfile<15><31>>.
+    Found 1-bit register for signal <Regfile<15><30>>.
+    Found 1-bit register for signal <Regfile<15><29>>.
+    Found 1-bit register for signal <Regfile<15><28>>.
+    Found 1-bit register for signal <Regfile<15><27>>.
+    Found 1-bit register for signal <Regfile<15><26>>.
+    Found 1-bit register for signal <Regfile<15><25>>.
+    Found 1-bit register for signal <Regfile<15><24>>.
+    Found 1-bit register for signal <Regfile<15><23>>.
+    Found 1-bit register for signal <Regfile<15><22>>.
+    Found 1-bit register for signal <Regfile<15><21>>.
+    Found 1-bit register for signal <Regfile<15><20>>.
+    Found 1-bit register for signal <Regfile<15><19>>.
+    Found 1-bit register for signal <Regfile<15><18>>.
+    Found 1-bit register for signal <Regfile<15><17>>.
+    Found 1-bit register for signal <Regfile<15><16>>.
+    Found 1-bit register for signal <Regfile<15><15>>.
+    Found 1-bit register for signal <Regfile<15><14>>.
+    Found 1-bit register for signal <Regfile<15><13>>.
+    Found 1-bit register for signal <Regfile<15><12>>.
+    Found 1-bit register for signal <Regfile<15><11>>.
+    Found 1-bit register for signal <Regfile<15><10>>.
+    Found 1-bit register for signal <Regfile<15><9>>.
+    Found 1-bit register for signal <Regfile<15><8>>.
+    Found 1-bit register for signal <Regfile<15><7>>.
+    Found 1-bit register for signal <Regfile<15><6>>.
+    Found 1-bit register for signal <Regfile<15><5>>.
+    Found 1-bit register for signal <Regfile<15><4>>.
+    Found 1-bit register for signal <Regfile<15><3>>.
+    Found 1-bit register for signal <Regfile<15><2>>.
+    Found 1-bit register for signal <Regfile<15><1>>.
+    Found 1-bit register for signal <Regfile<15><0>>.
+    Found 1-bit register for signal <Regfile<14><31>>.
+    Found 1-bit register for signal <Regfile<14><30>>.
+    Found 1-bit register for signal <Regfile<14><29>>.
+    Found 1-bit register for signal <Regfile<14><28>>.
+    Found 1-bit register for signal <Regfile<14><27>>.
+    Found 1-bit register for signal <Regfile<14><26>>.
+    Found 1-bit register for signal <Regfile<14><25>>.
+    Found 1-bit register for signal <Regfile<14><24>>.
+    Found 1-bit register for signal <Regfile<14><23>>.
+    Found 1-bit register for signal <Regfile<14><22>>.
+    Found 1-bit register for signal <Regfile<14><21>>.
+    Found 1-bit register for signal <Regfile<14><20>>.
+    Found 1-bit register for signal <Regfile<14><19>>.
+    Found 1-bit register for signal <Regfile<14><18>>.
+    Found 1-bit register for signal <Regfile<14><17>>.
+    Found 1-bit register for signal <Regfile<14><16>>.
+    Found 1-bit register for signal <Regfile<14><15>>.
+    Found 1-bit register for signal <Regfile<14><14>>.
+    Found 1-bit register for signal <Regfile<14><13>>.
+    Found 1-bit register for signal <Regfile<14><12>>.
+    Found 1-bit register for signal <Regfile<14><11>>.
+    Found 1-bit register for signal <Regfile<14><10>>.
+    Found 1-bit register for signal <Regfile<14><9>>.
+    Found 1-bit register for signal <Regfile<14><8>>.
+    Found 1-bit register for signal <Regfile<14><7>>.
+    Found 1-bit register for signal <Regfile<14><6>>.
+    Found 1-bit register for signal <Regfile<14><5>>.
+    Found 1-bit register for signal <Regfile<14><4>>.
+    Found 1-bit register for signal <Regfile<14><3>>.
+    Found 1-bit register for signal <Regfile<14><2>>.
+    Found 1-bit register for signal <Regfile<14><1>>.
+    Found 1-bit register for signal <Regfile<14><0>>.
+    Found 1-bit register for signal <Regfile<13><31>>.
+    Found 1-bit register for signal <Regfile<13><30>>.
+    Found 1-bit register for signal <Regfile<13><29>>.
+    Found 1-bit register for signal <Regfile<13><28>>.
+    Found 1-bit register for signal <Regfile<13><27>>.
+    Found 1-bit register for signal <Regfile<13><26>>.
+    Found 1-bit register for signal <Regfile<13><25>>.
+    Found 1-bit register for signal <Regfile<13><24>>.
+    Found 1-bit register for signal <Regfile<13><23>>.
+    Found 1-bit register for signal <Regfile<13><22>>.
+    Found 1-bit register for signal <Regfile<13><21>>.
+    Found 1-bit register for signal <Regfile<13><20>>.
+    Found 1-bit register for signal <Regfile<13><19>>.
+    Found 1-bit register for signal <Regfile<13><18>>.
+    Found 1-bit register for signal <Regfile<13><17>>.
+    Found 1-bit register for signal <Regfile<13><16>>.
+    Found 1-bit register for signal <Regfile<13><15>>.
+    Found 1-bit register for signal <Regfile<13><14>>.
+    Found 1-bit register for signal <Regfile<13><13>>.
+    Found 1-bit register for signal <Regfile<13><12>>.
+    Found 1-bit register for signal <Regfile<13><11>>.
+    Found 1-bit register for signal <Regfile<13><10>>.
+    Found 1-bit register for signal <Regfile<13><9>>.
+    Found 1-bit register for signal <Regfile<13><8>>.
+    Found 1-bit register for signal <Regfile<13><7>>.
+    Found 1-bit register for signal <Regfile<13><6>>.
+    Found 1-bit register for signal <Regfile<13><5>>.
+    Found 1-bit register for signal <Regfile<13><4>>.
+    Found 1-bit register for signal <Regfile<13><3>>.
+    Found 1-bit register for signal <Regfile<13><2>>.
+    Found 1-bit register for signal <Regfile<13><1>>.
+    Found 1-bit register for signal <Regfile<13><0>>.
+    Found 1-bit register for signal <Regfile<12><31>>.
+    Found 1-bit register for signal <Regfile<12><30>>.
+    Found 1-bit register for signal <Regfile<12><29>>.
+    Found 1-bit register for signal <Regfile<12><28>>.
+    Found 1-bit register for signal <Regfile<12><27>>.
+    Found 1-bit register for signal <Regfile<12><26>>.
+    Found 1-bit register for signal <Regfile<12><25>>.
+    Found 1-bit register for signal <Regfile<12><24>>.
+    Found 1-bit register for signal <Regfile<12><23>>.
+    Found 1-bit register for signal <Regfile<12><22>>.
+    Found 1-bit register for signal <Regfile<12><21>>.
+    Found 1-bit register for signal <Regfile<12><20>>.
+    Found 1-bit register for signal <Regfile<12><19>>.
+    Found 1-bit register for signal <Regfile<12><18>>.
+    Found 1-bit register for signal <Regfile<12><17>>.
+    Found 1-bit register for signal <Regfile<12><16>>.
+    Found 1-bit register for signal <Regfile<12><15>>.
+    Found 1-bit register for signal <Regfile<12><14>>.
+    Found 1-bit register for signal <Regfile<12><13>>.
+    Found 1-bit register for signal <Regfile<12><12>>.
+    Found 1-bit register for signal <Regfile<12><11>>.
+    Found 1-bit register for signal <Regfile<12><10>>.
+    Found 1-bit register for signal <Regfile<12><9>>.
+    Found 1-bit register for signal <Regfile<12><8>>.
+    Found 1-bit register for signal <Regfile<12><7>>.
+    Found 1-bit register for signal <Regfile<12><6>>.
+    Found 1-bit register for signal <Regfile<12><5>>.
+    Found 1-bit register for signal <Regfile<12><4>>.
+    Found 1-bit register for signal <Regfile<12><3>>.
+    Found 1-bit register for signal <Regfile<12><2>>.
+    Found 1-bit register for signal <Regfile<12><1>>.
+    Found 1-bit register for signal <Regfile<12><0>>.
+    Found 1-bit register for signal <Regfile<11><31>>.
+    Found 1-bit register for signal <Regfile<11><30>>.
+    Found 1-bit register for signal <Regfile<11><29>>.
+    Found 1-bit register for signal <Regfile<11><28>>.
+    Found 1-bit register for signal <Regfile<11><27>>.
+    Found 1-bit register for signal <Regfile<11><26>>.
+    Found 1-bit register for signal <Regfile<11><25>>.
+    Found 1-bit register for signal <Regfile<11><24>>.
+    Found 1-bit register for signal <Regfile<11><23>>.
+    Found 1-bit register for signal <Regfile<11><22>>.
+    Found 1-bit register for signal <Regfile<11><21>>.
+    Found 1-bit register for signal <Regfile<11><20>>.
+    Found 1-bit register for signal <Regfile<11><19>>.
+    Found 1-bit register for signal <Regfile<11><18>>.
+    Found 1-bit register for signal <Regfile<11><17>>.
+    Found 1-bit register for signal <Regfile<11><16>>.
+    Found 1-bit register for signal <Regfile<11><15>>.
+    Found 1-bit register for signal <Regfile<11><14>>.
+    Found 1-bit register for signal <Regfile<11><13>>.
+    Found 1-bit register for signal <Regfile<11><12>>.
+    Found 1-bit register for signal <Regfile<11><11>>.
+    Found 1-bit register for signal <Regfile<11><10>>.
+    Found 1-bit register for signal <Regfile<11><9>>.
+    Found 1-bit register for signal <Regfile<11><8>>.
+    Found 1-bit register for signal <Regfile<11><7>>.
+    Found 1-bit register for signal <Regfile<11><6>>.
+    Found 1-bit register for signal <Regfile<11><5>>.
+    Found 1-bit register for signal <Regfile<11><4>>.
+    Found 1-bit register for signal <Regfile<11><3>>.
+    Found 1-bit register for signal <Regfile<11><2>>.
+    Found 1-bit register for signal <Regfile<11><1>>.
+    Found 1-bit register for signal <Regfile<11><0>>.
+    Found 1-bit register for signal <Regfile<10><31>>.
+    Found 1-bit register for signal <Regfile<10><30>>.
+    Found 1-bit register for signal <Regfile<10><29>>.
+    Found 1-bit register for signal <Regfile<10><28>>.
+    Found 1-bit register for signal <Regfile<10><27>>.
+    Found 1-bit register for signal <Regfile<10><26>>.
+    Found 1-bit register for signal <Regfile<10><25>>.
+    Found 1-bit register for signal <Regfile<10><24>>.
+    Found 1-bit register for signal <Regfile<10><23>>.
+    Found 1-bit register for signal <Regfile<10><22>>.
+    Found 1-bit register for signal <Regfile<10><21>>.
+    Found 1-bit register for signal <Regfile<10><20>>.
+    Found 1-bit register for signal <Regfile<10><19>>.
+    Found 1-bit register for signal <Regfile<10><18>>.
+    Found 1-bit register for signal <Regfile<10><17>>.
+    Found 1-bit register for signal <Regfile<10><16>>.
+    Found 1-bit register for signal <Regfile<10><15>>.
+    Found 1-bit register for signal <Regfile<10><14>>.
+    Found 1-bit register for signal <Regfile<10><13>>.
+    Found 1-bit register for signal <Regfile<10><12>>.
+    Found 1-bit register for signal <Regfile<10><11>>.
+    Found 1-bit register for signal <Regfile<10><10>>.
+    Found 1-bit register for signal <Regfile<10><9>>.
+    Found 1-bit register for signal <Regfile<10><8>>.
+    Found 1-bit register for signal <Regfile<10><7>>.
+    Found 1-bit register for signal <Regfile<10><6>>.
+    Found 1-bit register for signal <Regfile<10><5>>.
+    Found 1-bit register for signal <Regfile<10><4>>.
+    Found 1-bit register for signal <Regfile<10><3>>.
+    Found 1-bit register for signal <Regfile<10><2>>.
+    Found 1-bit register for signal <Regfile<10><1>>.
+    Found 1-bit register for signal <Regfile<10><0>>.
+    Found 1-bit register for signal <Regfile<9><31>>.
+    Found 1-bit register for signal <Regfile<9><30>>.
+    Found 1-bit register for signal <Regfile<9><29>>.
+    Found 1-bit register for signal <Regfile<9><28>>.
+    Found 1-bit register for signal <Regfile<9><27>>.
+    Found 1-bit register for signal <Regfile<9><26>>.
+    Found 1-bit register for signal <Regfile<9><25>>.
+    Found 1-bit register for signal <Regfile<9><24>>.
+    Found 1-bit register for signal <Regfile<9><23>>.
+    Found 1-bit register for signal <Regfile<9><22>>.
+    Found 1-bit register for signal <Regfile<9><21>>.
+    Found 1-bit register for signal <Regfile<9><20>>.
+    Found 1-bit register for signal <Regfile<9><19>>.
+    Found 1-bit register for signal <Regfile<9><18>>.
+    Found 1-bit register for signal <Regfile<9><17>>.
+    Found 1-bit register for signal <Regfile<9><16>>.
+    Found 1-bit register for signal <Regfile<9><15>>.
+    Found 1-bit register for signal <Regfile<9><14>>.
+    Found 1-bit register for signal <Regfile<9><13>>.
+    Found 1-bit register for signal <Regfile<9><12>>.
+    Found 1-bit register for signal <Regfile<9><11>>.
+    Found 1-bit register for signal <Regfile<9><10>>.
+    Found 1-bit register for signal <Regfile<9><9>>.
+    Found 1-bit register for signal <Regfile<9><8>>.
+    Found 1-bit register for signal <Regfile<9><7>>.
+    Found 1-bit register for signal <Regfile<9><6>>.
+    Found 1-bit register for signal <Regfile<9><5>>.
+    Found 1-bit register for signal <Regfile<9><4>>.
+    Found 1-bit register for signal <Regfile<9><3>>.
+    Found 1-bit register for signal <Regfile<9><2>>.
+    Found 1-bit register for signal <Regfile<9><1>>.
+    Found 1-bit register for signal <Regfile<9><0>>.
+    Found 1-bit register for signal <Regfile<8><31>>.
+    Found 1-bit register for signal <Regfile<8><30>>.
+    Found 1-bit register for signal <Regfile<8><29>>.
+    Found 1-bit register for signal <Regfile<8><28>>.
+    Found 1-bit register for signal <Regfile<8><27>>.
+    Found 1-bit register for signal <Regfile<8><26>>.
+    Found 1-bit register for signal <Regfile<8><25>>.
+    Found 1-bit register for signal <Regfile<8><24>>.
+    Found 1-bit register for signal <Regfile<8><23>>.
+    Found 1-bit register for signal <Regfile<8><22>>.
+    Found 1-bit register for signal <Regfile<8><21>>.
+    Found 1-bit register for signal <Regfile<8><20>>.
+    Found 1-bit register for signal <Regfile<8><19>>.
+    Found 1-bit register for signal <Regfile<8><18>>.
+    Found 1-bit register for signal <Regfile<8><17>>.
+    Found 1-bit register for signal <Regfile<8><16>>.
+    Found 1-bit register for signal <Regfile<8><15>>.
+    Found 1-bit register for signal <Regfile<8><14>>.
+    Found 1-bit register for signal <Regfile<8><13>>.
+    Found 1-bit register for signal <Regfile<8><12>>.
+    Found 1-bit register for signal <Regfile<8><11>>.
+    Found 1-bit register for signal <Regfile<8><10>>.
+    Found 1-bit register for signal <Regfile<8><9>>.
+    Found 1-bit register for signal <Regfile<8><8>>.
+    Found 1-bit register for signal <Regfile<8><7>>.
+    Found 1-bit register for signal <Regfile<8><6>>.
+    Found 1-bit register for signal <Regfile<8><5>>.
+    Found 1-bit register for signal <Regfile<8><4>>.
+    Found 1-bit register for signal <Regfile<8><3>>.
+    Found 1-bit register for signal <Regfile<8><2>>.
+    Found 1-bit register for signal <Regfile<8><1>>.
+    Found 1-bit register for signal <Regfile<8><0>>.
+    Found 1-bit register for signal <Regfile<7><31>>.
+    Found 1-bit register for signal <Regfile<7><30>>.
+    Found 1-bit register for signal <Regfile<7><29>>.
+    Found 1-bit register for signal <Regfile<7><28>>.
+    Found 1-bit register for signal <Regfile<7><27>>.
+    Found 1-bit register for signal <Regfile<7><26>>.
+    Found 1-bit register for signal <Regfile<7><25>>.
+    Found 1-bit register for signal <Regfile<7><24>>.
+    Found 1-bit register for signal <Regfile<7><23>>.
+    Found 1-bit register for signal <Regfile<7><22>>.
+    Found 1-bit register for signal <Regfile<7><21>>.
+    Found 1-bit register for signal <Regfile<7><20>>.
+    Found 1-bit register for signal <Regfile<7><19>>.
+    Found 1-bit register for signal <Regfile<7><18>>.
+    Found 1-bit register for signal <Regfile<7><17>>.
+    Found 1-bit register for signal <Regfile<7><16>>.
+    Found 1-bit register for signal <Regfile<7><15>>.
+    Found 1-bit register for signal <Regfile<7><14>>.
+    Found 1-bit register for signal <Regfile<7><13>>.
+    Found 1-bit register for signal <Regfile<7><12>>.
+    Found 1-bit register for signal <Regfile<7><11>>.
+    Found 1-bit register for signal <Regfile<7><10>>.
+    Found 1-bit register for signal <Regfile<7><9>>.
+    Found 1-bit register for signal <Regfile<7><8>>.
+    Found 1-bit register for signal <Regfile<7><7>>.
+    Found 1-bit register for signal <Regfile<7><6>>.
+    Found 1-bit register for signal <Regfile<7><5>>.
+    Found 1-bit register for signal <Regfile<7><4>>.
+    Found 1-bit register for signal <Regfile<7><3>>.
+    Found 1-bit register for signal <Regfile<7><2>>.
+    Found 1-bit register for signal <Regfile<7><1>>.
+    Found 1-bit register for signal <Regfile<7><0>>.
+    Found 1-bit register for signal <Regfile<6><31>>.
+    Found 1-bit register for signal <Regfile<6><30>>.
+    Found 1-bit register for signal <Regfile<6><29>>.
+    Found 1-bit register for signal <Regfile<6><28>>.
+    Found 1-bit register for signal <Regfile<6><27>>.
+    Found 1-bit register for signal <Regfile<6><26>>.
+    Found 1-bit register for signal <Regfile<6><25>>.
+    Found 1-bit register for signal <Regfile<6><24>>.
+    Found 1-bit register for signal <Regfile<6><23>>.
+    Found 1-bit register for signal <Regfile<6><22>>.
+    Found 1-bit register for signal <Regfile<6><21>>.
+    Found 1-bit register for signal <Regfile<6><20>>.
+    Found 1-bit register for signal <Regfile<6><19>>.
+    Found 1-bit register for signal <Regfile<6><18>>.
+    Found 1-bit register for signal <Regfile<6><17>>.
+    Found 1-bit register for signal <Regfile<6><16>>.
+    Found 1-bit register for signal <Regfile<6><15>>.
+    Found 1-bit register for signal <Regfile<6><14>>.
+    Found 1-bit register for signal <Regfile<6><13>>.
+    Found 1-bit register for signal <Regfile<6><12>>.
+    Found 1-bit register for signal <Regfile<6><11>>.
+    Found 1-bit register for signal <Regfile<6><10>>.
+    Found 1-bit register for signal <Regfile<6><9>>.
+    Found 1-bit register for signal <Regfile<6><8>>.
+    Found 1-bit register for signal <Regfile<6><7>>.
+    Found 1-bit register for signal <Regfile<6><6>>.
+    Found 1-bit register for signal <Regfile<6><5>>.
+    Found 1-bit register for signal <Regfile<6><4>>.
+    Found 1-bit register for signal <Regfile<6><3>>.
+    Found 1-bit register for signal <Regfile<6><2>>.
+    Found 1-bit register for signal <Regfile<6><1>>.
+    Found 1-bit register for signal <Regfile<6><0>>.
+    Found 1-bit register for signal <Regfile<5><6>>.
+    Found 1-bit register for signal <Regfile<5><5>>.
+    Found 1-bit register for signal <Regfile<4><31>>.
+    Found 1-bit register for signal <Regfile<4><30>>.
+    Found 1-bit register for signal <Regfile<4><29>>.
+    Found 1-bit register for signal <Regfile<4><28>>.
+    Found 1-bit register for signal <Regfile<4><27>>.
+    Found 1-bit register for signal <Regfile<4><26>>.
+    Found 1-bit register for signal <Regfile<4><25>>.
+    Found 1-bit register for signal <Regfile<4><24>>.
+    Found 1-bit register for signal <Regfile<4><23>>.
+    Found 1-bit register for signal <Regfile<4><22>>.
+    Found 1-bit register for signal <Regfile<4><21>>.
+    Found 1-bit register for signal <Regfile<4><20>>.
+    Found 1-bit register for signal <Regfile<4><19>>.
+    Found 1-bit register for signal <Regfile<4><18>>.
+    Found 1-bit register for signal <Regfile<4><17>>.
+    Found 1-bit register for signal <Regfile<4><16>>.
+    Found 1-bit register for signal <Regfile<4><15>>.
+    Found 1-bit register for signal <Regfile<4><14>>.
+    Found 1-bit register for signal <Regfile<4><13>>.
+    Found 1-bit register for signal <Regfile<4><12>>.
+    Found 1-bit register for signal <Regfile<4><11>>.
+    Found 1-bit register for signal <Regfile<4><10>>.
+    Found 1-bit register for signal <Regfile<4><9>>.
+    Found 1-bit register for signal <Regfile<4><8>>.
+    Found 1-bit register for signal <Regfile<4><7>>.
+    Found 1-bit register for signal <Regfile<4><6>>.
+    Found 1-bit register for signal <Regfile<4><5>>.
+    Found 1-bit register for signal <Regfile<4><4>>.
+    Found 1-bit register for signal <Regfile<4><3>>.
+    Found 1-bit register for signal <Regfile<4><2>>.
+    Found 1-bit register for signal <Regfile<4><1>>.
+    Found 1-bit register for signal <Regfile<4><0>>.
+    Found 1-bit register for signal <Regfile<3><31>>.
+    Found 1-bit register for signal <Regfile<3><30>>.
+    Found 1-bit register for signal <Regfile<3><29>>.
+    Found 1-bit register for signal <Regfile<3><28>>.
+    Found 1-bit register for signal <Regfile<3><27>>.
+    Found 1-bit register for signal <Regfile<3><26>>.
+    Found 1-bit register for signal <Regfile<3><25>>.
+    Found 1-bit register for signal <Regfile<3><24>>.
+    Found 1-bit register for signal <Regfile<3><23>>.
+    Found 1-bit register for signal <Regfile<3><22>>.
+    Found 1-bit register for signal <Regfile<3><21>>.
+    Found 1-bit register for signal <Regfile<3><20>>.
+    Found 1-bit register for signal <Regfile<3><19>>.
+    Found 1-bit register for signal <Regfile<3><18>>.
+    Found 1-bit register for signal <Regfile<3><17>>.
+    Found 1-bit register for signal <Regfile<3><16>>.
+    Found 1-bit register for signal <Regfile<3><15>>.
+    Found 1-bit register for signal <Regfile<3><14>>.
+    Found 1-bit register for signal <Regfile<3><13>>.
+    Found 1-bit register for signal <Regfile<3><12>>.
+    Found 1-bit register for signal <Regfile<3><11>>.
+    Found 1-bit register for signal <Regfile<3><10>>.
+    Found 1-bit register for signal <Regfile<3><9>>.
+    Found 1-bit register for signal <Regfile<3><8>>.
+    Found 1-bit register for signal <Regfile<3><7>>.
+    Found 1-bit register for signal <Regfile<3><6>>.
+    Found 1-bit register for signal <Regfile<3><5>>.
+    Found 1-bit register for signal <Regfile<3><4>>.
+    Found 1-bit register for signal <Regfile<3><3>>.
+    Found 1-bit register for signal <Regfile<3><2>>.
+    Found 1-bit register for signal <Regfile<3><1>>.
+    Found 1-bit register for signal <Regfile<3><0>>.
+    Found 1-bit register for signal <Regfile<2><31>>.
+    Found 1-bit register for signal <Regfile<2><30>>.
+    Found 1-bit register for signal <Regfile<2><29>>.
+    Found 1-bit register for signal <Regfile<2><28>>.
+    Found 1-bit register for signal <Regfile<2><27>>.
+    Found 1-bit register for signal <Regfile<2><26>>.
+    Found 1-bit register for signal <Regfile<2><25>>.
+    Found 1-bit register for signal <Regfile<2><24>>.
+    Found 1-bit register for signal <Regfile<2><23>>.
+    Found 1-bit register for signal <Regfile<2><22>>.
+    Found 1-bit register for signal <Regfile<2><21>>.
+    Found 1-bit register for signal <Regfile<2><20>>.
+    Found 1-bit register for signal <Regfile<2><19>>.
+    Found 1-bit register for signal <Regfile<2><18>>.
+    Found 1-bit register for signal <Regfile<2><17>>.
+    Found 1-bit register for signal <Regfile<2><16>>.
+    Found 1-bit register for signal <Regfile<2><15>>.
+    Found 1-bit register for signal <Regfile<2><14>>.
+    Found 1-bit register for signal <Regfile<2><13>>.
+    Found 1-bit register for signal <Regfile<2><12>>.
+    Found 1-bit register for signal <Regfile<2><11>>.
+    Found 1-bit register for signal <Regfile<2><10>>.
+    Found 1-bit register for signal <Regfile<2><9>>.
+    Found 1-bit register for signal <Regfile<2><8>>.
+    Found 1-bit register for signal <Regfile<2><7>>.
+    Found 1-bit register for signal <Regfile<2><6>>.
+    Found 1-bit register for signal <Regfile<2><5>>.
+    Found 1-bit register for signal <Regfile<2><4>>.
+    Found 1-bit register for signal <Regfile<2><3>>.
+    Found 1-bit register for signal <Regfile<2><2>>.
+    Found 1-bit register for signal <Regfile<2><1>>.
+    Found 1-bit register for signal <Regfile<2><0>>.
+    Found 1-bit register for signal <Regfile<1><31>>.
+    Found 1-bit register for signal <Regfile<1><30>>.
+    Found 1-bit register for signal <Regfile<1><29>>.
+    Found 1-bit register for signal <Regfile<1><28>>.
+    Found 1-bit register for signal <Regfile<1><27>>.
+    Found 1-bit register for signal <Regfile<1><26>>.
+    Found 1-bit register for signal <Regfile<1><25>>.
+    Found 1-bit register for signal <Regfile<1><24>>.
+    Found 1-bit register for signal <Regfile<1><23>>.
+    Found 1-bit register for signal <Regfile<1><22>>.
+    Found 1-bit register for signal <Regfile<1><21>>.
+    Found 1-bit register for signal <Regfile<1><20>>.
+    Found 1-bit register for signal <Regfile<1><19>>.
+    Found 1-bit register for signal <Regfile<1><18>>.
+    Found 1-bit register for signal <Regfile<1><17>>.
+    Found 1-bit register for signal <Regfile<1><16>>.
+    Found 1-bit register for signal <Regfile<1><15>>.
+    Found 1-bit register for signal <Regfile<1><14>>.
+    Found 1-bit register for signal <Regfile<1><13>>.
+    Found 1-bit register for signal <Regfile<1><12>>.
+    Found 1-bit register for signal <Regfile<1><11>>.
+    Found 1-bit register for signal <Regfile<1><10>>.
+    Found 1-bit register for signal <Regfile<1><9>>.
+    Found 1-bit register for signal <Regfile<1><8>>.
+    Found 1-bit register for signal <Regfile<1><7>>.
+    Found 1-bit register for signal <Regfile<1><6>>.
+    Found 1-bit register for signal <Regfile<1><5>>.
+    Found 1-bit register for signal <Regfile<1><4>>.
+    Found 1-bit register for signal <Regfile<1><3>>.
+    Found 1-bit register for signal <Regfile<1><2>>.
+    Found 1-bit register for signal <Regfile<1><1>>.
+    Found 1-bit register for signal <Regfile<1><0>>.
+    Found 1-bit register for signal <Regfile<0><31>>.
+    Found 1-bit register for signal <Regfile<0><30>>.
+    Found 1-bit register for signal <Regfile<0><29>>.
+    Found 1-bit register for signal <Regfile<0><28>>.
+    Found 1-bit register for signal <Regfile<0><27>>.
+    Found 1-bit register for signal <Regfile<0><26>>.
+    Found 1-bit register for signal <Regfile<0><25>>.
+    Found 1-bit register for signal <Regfile<0><24>>.
+    Found 1-bit register for signal <Regfile<0><23>>.
+    Found 1-bit register for signal <Regfile<0><22>>.
+    Found 1-bit register for signal <Regfile<0><21>>.
+    Found 1-bit register for signal <Regfile<0><20>>.
+    Found 1-bit register for signal <Regfile<0><19>>.
+    Found 1-bit register for signal <Regfile<0><18>>.
+    Found 1-bit register for signal <Regfile<0><17>>.
+    Found 1-bit register for signal <Regfile<0><16>>.
+    Found 1-bit register for signal <Regfile<0><15>>.
+    Found 1-bit register for signal <Regfile<0><14>>.
+    Found 1-bit register for signal <Regfile<0><13>>.
+    Found 1-bit register for signal <Regfile<0><12>>.
+    Found 1-bit register for signal <Regfile<0><11>>.
+    Found 1-bit register for signal <Regfile<0><10>>.
+    Found 1-bit register for signal <Regfile<0><9>>.
+    Found 1-bit register for signal <Regfile<0><8>>.
+    Found 1-bit register for signal <Regfile<0><7>>.
+    Found 1-bit register for signal <Regfile<0><6>>.
+    Found 1-bit register for signal <Regfile<0><5>>.
+    Found 1-bit register for signal <Regfile<0><4>>.
+    Found 1-bit register for signal <Regfile<0><3>>.
+    Found 1-bit register for signal <Regfile<0><2>>.
+    Found 1-bit register for signal <Regfile<0><1>>.
+    Found 1-bit register for signal <Regfile<0><0>>.
+    Found 1-bit register for signal <Regfile<31><31>>.
+    Found 32-bit 32-to-1 multiplexer for signal <A_data> created at line 38.
+    Found 32-bit 32-to-1 multiplexer for signal <B_data> created at line 39.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><31><0:0>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><30><31:31>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><29><30:30>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><28><29:29>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><27><28:28>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><26><27:27>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><25><26:26>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><24><25:25>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><23><24:24>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><22><23:23>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><21><22:22>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><20><21:21>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><19><20:20>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><18><19:19>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><17><18:18>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><16><17:17>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><15><16:16>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><14><15:15>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><13><14:14>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><12><13:13>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><11><12:12>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><10><11:11>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><9><10:10>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><8><9:9>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><7><0:0>> (without init value) have a constant value of 1 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><4><8:8>> (without init value) have a constant value of 0 in block <regfile>.
+    WARNING:Xst:2404 -  FFs/Latches <Regfile<5><0><4:4>> (without init value) have a constant value of 0 in block <regfile>.
+    Summary:
+	inferred 994 D-type flip-flop(s).
+	inferred  74 Multiplexer(s).
+Unit <regfile> synthesized.
+
+Synthesizing Unit <SignExt>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\SignExt.v".
+    Summary:
+	no macro.
+Unit <SignExt> synthesized.
+
+Synthesizing Unit <counter2>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\New folder\counter2.v".
+    Found 2-bit register for signal <Q>.
+    Found 2-bit adder for signal <Q[1]_GND_19_o_add_0_OUT> created at line 30.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+Unit <counter2> synthesized.
+
+Synthesizing Unit <bindecoder>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\New folder\bindecoder.v".
+    Found 4x4-bit Read Only RAM for signal <y>
+    Summary:
+	inferred   1 RAM(s).
+Unit <bindecoder> synthesized.
+
+Synthesizing Unit <binto7seg>.
+    Related source file is "C:\Users\sebayoussef.AUC\Desktop\Project2-CPU\Project2-CPU\binto7seg.v".
+WARNING:Xst:647 - Input <decin> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <sel> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <binto7seg> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 7
+ 17-bit adder                                          : 2
+ 2-bit adder                                           : 1
+ 32-bit adder                                          : 2
+ 32-bit subtractor                                     : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 968
+ 1-bit register                                        : 963
+ 2-bit register                                        : 1
+ 32-bit register                                       : 2
+ 8-bit register                                        : 2
+# Latches                                              : 8
+ 1-bit latch                                           : 8
+# Comparators                                          : 2
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 107
+ 1-bit 2-to-1 multiplexer                              : 92
+ 32-bit 2-to-1 multiplexer                             : 3
+ 32-bit 32-to-1 multiplexer                            : 2
+ 5-bit 2-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 4
+ 7-bit 4-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/Memory.ngc>.
+Reading core <ipcore_dir/Memory_2.ngc>.
+Loading core <Memory> for timing and area information for instance <M>.
+Loading core <Memory_2> for timing and area information for instance <M2>.
+WARNING:Xst:1710 - FF/Latch <Regfile_31> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_30> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_29> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_28> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_27> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_26> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_25> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_24> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_23> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_22> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_21> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_20> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_19> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_18> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_17> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_16> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_15> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_14> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_13> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_12> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_11> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_10> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_9> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_8> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_7> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_6> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_5> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_4> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_3> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_2> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_1> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Regfile_0> (without init value) has a constant value of 0 in block <reg1>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <bindecoder>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_y> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <in>            |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <y>             |          |
+    -----------------------------------------------------------------------
+Unit <bindecoder> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clkdiv>.
+The following registers are absorbed into counter <x>: 1 register on signal <x>.
+Unit <clkdiv> synthesized (advanced).
+
+Synthesizing (advanced) Unit <counter>.
+The following registers are absorbed into accumulator <out>: 1 register on signal <out>.
+Unit <counter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <counter2>.
+The following registers are absorbed into counter <Q>: 1 register on signal <Q>.
+Unit <counter2> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 1
+ 32-bit subtractor                                     : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 2
+ 2-bit up counter                                      : 1
+ 32-bit up counter                                     : 1
+# Accumulators                                         : 1
+ 8-bit up loadable accumulator cin                     : 1
+# Registers                                            : 1003
+ Flip-Flops                                            : 1003
+# Comparators                                          : 2
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 174
+ 1-bit 2-to-1 multiplexer                              : 100
+ 1-bit 32-to-1 multiplexer                             : 64
+ 32-bit 2-to-1 multiplexer                             : 2
+ 5-bit 2-to-1 multiplexer                              : 1
+ 7-bit 2-to-1 multiplexer                              : 4
+ 7-bit 4-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Regfile_31> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_30> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_29> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_28> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_27> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_26> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_25> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_24> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_23> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_22> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_21> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_20> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_19> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_18> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_17> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_16> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_15> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_14> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_13> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_12> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_11> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_10> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_9> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_8> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_7> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_6> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_5> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_4> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_3> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_2> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_1> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Regfile_0> (without init value) has a constant value of 0 in block <regfile>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <CPU> ...
+
+Optimizing unit <regfile> ...
+
+Optimizing unit <counter> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <ControlUnit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CPU, actual ratio is 21.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1013
+ Flip-Flops                                            : 1013
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : CPU.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1462
+#      GND                         : 3
+#      INV                         : 3
+#      LUT1                        : 31
+#      LUT2                        : 22
+#      LUT3                        : 95
+#      LUT4                        : 175
+#      LUT5                        : 154
+#      LUT6                        : 659
+#      MUXCY                       : 126
+#      MUXF7                       : 87
+#      VCC                         : 3
+#      XORCY                       : 104
+# FlipFlops/Latches                : 1021
+#      FD                          : 9
+#      FDC                         : 35
+#      FDCE                        : 8
+#      FDR                         : 29
+#      FDRE                        : 812
+#      FDS                         : 4
+#      FDSE                        : 116
+#      LD                          : 6
+#      LDC                         : 1
+#      LDP                         : 1
+# RAMS                             : 2
+#      RAMB8BWER                   : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1021  out of  18224     5%  
+ Number of Slice LUTs:                 1139  out of   9112    12%  
+    Number used as Logic:              1139  out of   9112    12%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2060
+   Number with an unused Flip Flop:    1039  out of   2060    50%  
+   Number with an unused LUT:           921  out of   2060    44%  
+   Number of fully used LUT-FF pairs:   100  out of   2060     4%  
+   Number of unique control sets:        38
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  13  out of    232     5%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                       | Clock buffer(FF name)  | Load  |
+-------------------------------------------------------------------+------------------------+-------+
+clk                                                                | BUFGP                  | 1011  |
+c2/out                                                             | NONE(c3/Q_0)           | 4     |
+c1/opcode[5]_opcode[5]_OR_130_o(c1/opcode[5]_opcode[5]_OR_130_o1:O)| NONE(*)(c1/ALUsel_0)   | 6     |
+c1/opcode[5]_opcode[5]_AND_51_o(c1/opcode[5]_opcode[5]_AND_51_o1:O)| NONE(*)(c1/datasource) | 2     |
+-------------------------------------------------------------------+------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 15.533ns (Maximum Frequency: 64.379MHz)
+   Minimum input arrival time before clock: 5.234ns
+   Maximum output required time after clock: 5.801ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 15.533ns (frequency: 64.379MHz)
+  Total number of paths / destination ports: 3162701 / 1017
+-------------------------------------------------------------------------
+Delay:               7.766ns (Levels of Logic = 17)
+  Source:            reg1/Regfile<26>_2 (FF)
+  Destination:       c/out_7 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk falling
+
+  Data Path: reg1/Regfile<26>_2 to c/out_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             2   0.447   0.864  reg1/Regfile<26>_2 (reg1/Regfile<26>_2)
+     LUT6:I2->O            1   0.203   0.827  reg1/mux54_81 (reg1/mux54_81)
+     LUT6:I2->O            1   0.203   0.000  reg1/mux54_3 (reg1/mux54_3)
+     MUXF7:I1->O           4   0.140   0.684  reg1/mux54_2_f7 (B_data<2>)
+     LUT3:I2->O            4   0.205   0.912  Mmux_B_data[31]_immediate[31]_mux_0_OUT231 (B_data[31]_immediate[31]_mux_0_OUT<2>)
+     LUT6:I3->O            1   0.205   0.000  a1/Mcompar_n0000_lut<0> (a1/Mcompar_n0000_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  a1/Mcompar_n0000_cy<0> (a1/Mcompar_n0000_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<1> (a1/Mcompar_n0000_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<2> (a1/Mcompar_n0000_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<3> (a1/Mcompar_n0000_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<4> (a1/Mcompar_n0000_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<5> (a1/Mcompar_n0000_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<6> (a1/Mcompar_n0000_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<7> (a1/Mcompar_n0000_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<8> (a1/Mcompar_n0000_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_n0000_cy<9> (a1/Mcompar_n0000_cy<9>)
+     MUXCY:CI->O          25   0.213   1.193  a1/Mcompar_n0000_cy<10> (a1/n0000)
+     LUT6:I5->O            8   0.205   0.802  c/_n0049_inv3 (c/_n0049_inv)
+     FDCE:CE                   0.322          c/out_0
+    ----------------------------------------
+    Total                      7.766ns (2.486ns logic, 5.280ns route)
+                                       (32.0% logic, 68.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'c2/out'
+  Clock period: 12.273ns (frequency: 81.481MHz)
+  Total number of paths / destination ports: 15293 / 54
+-------------------------------------------------------------------------
+Delay:               12.273ns (Levels of Logic = 24)
+  Source:            M/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (RAM)
+  Destination:       M2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.WIDE_PRIM9.ram (RAM)
+  Source Clock:      c2/out rising
+  Destination Clock: c2/out rising
+
+  Data Path: M/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram to M2/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.WIDE_PRIM9.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB8BWER:CLKBRDCLK->DOBDO1  258   1.850   2.431  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (douta<17>)
+     end scope: 'M:douta<17>'
+     LUT6:I0->O            1   0.203   0.827  reg1/mux32_81 (reg1/mux32_81)
+     LUT6:I2->O            1   0.203   0.000  reg1/mux32_3 (reg1/mux32_3)
+     MUXF7:I1->O           4   0.140   0.684  reg1/mux32_2_f7 (B_data<0>)
+     LUT3:I2->O            4   0.205   0.931  Mmux_B_data[31]_immediate[31]_mux_0_OUT11 (B_data[31]_immediate[31]_mux_0_OUT<0>)
+     LUT4:I0->O            1   0.203   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_lut<0> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<0> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<1> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<2> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<3> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<4> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<5> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<6> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<7> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<8> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<9> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<10> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<11> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<12> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<13> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<13>)
+     MUXCY:CI->O           1   0.213   0.924  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<14> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<14>)
+     LUT6:I1->O            1   0.203   0.684  a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<15> (a1/Mcompar_A[31]_B[31]_LessThan_11_o_cy<15>)
+     LUT5:I3->O            1   0.203   0.684  a1/_n0128<0>3 (a1/_n0128<0>2)
+     LUT6:I4->O            5   0.203   0.714  a1/_n0128<0>4 (ALUresult<0>)
+     begin scope: 'M2:addra<0>'
+     RAMB8BWER:ADDRAWRADDR5        0.350          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SDP.WIDE_PRIM9.ram
+    ----------------------------------------
+    Total                     12.273ns (4.395ns logic, 7.878ns route)
+                                       (35.8% logic, 64.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1011 / 1011
+-------------------------------------------------------------------------
+Offset:              5.234ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       reg1/Regfile<31>_31 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to reg1/Regfile<31>_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           990   1.222   2.205  rst_IBUF (rst_IBUF)
+     LUT3:I2->O           24   0.205   1.172  reg1/Reset_OR_DriverANDClockEnable241 (reg1/Reset_OR_DriverANDClockEnable)
+     FDRE:R                    0.430          reg1/Regfile<31>_30
+    ----------------------------------------
+    Total                      5.234ns (1.857ns logic, 3.377ns route)
+                                       (35.5% logic, 64.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'c2/out'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.856ns (Levels of Logic = 1)
+  Source:            rst (PAD)
+  Destination:       c3/Q_0 (FF)
+  Destination Clock: c2/out rising
+
+  Data Path: rst to c3/Q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           990   1.222   2.204  rst_IBUF (rst_IBUF)
+     FDC:CLR                   0.430          c3/Q_0
+    ----------------------------------------
+    Total                      3.856ns (1.652ns logic, 2.204ns route)
+                                       (42.8% logic, 57.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'c2/out'
+  Total number of paths / destination ports: 29 / 11
+-------------------------------------------------------------------------
+Offset:              5.376ns (Levels of Logic = 3)
+  Source:            c3/Q_0 (FF)
+  Destination:       out<6> (PAD)
+  Source Clock:      c2/out rising
+
+  Data Path: c3/Q_0 to out<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             19   0.447   1.436  c3/Q_0 (c3/Q_0)
+     LUT6:I0->O            1   0.203   0.000  Mmux_out15_G (N165)
+     MUXF7:I1->O           1   0.140   0.579  Mmux_out15 (out_0_OBUF)
+     OBUF:I->O                 2.571          out_0_OBUF (out<0>)
+    ----------------------------------------
+    Total                      5.376ns (3.361ns logic, 2.015ns route)
+                                       (62.5% logic, 37.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 112 / 7
+-------------------------------------------------------------------------
+Offset:              5.801ns (Levels of Logic = 4)
+  Source:            reg1/Regfile<1>_8 (FF)
+  Destination:       out<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: reg1/Regfile<1>_8 to out<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.447   1.077  reg1/Regfile<1>_8 (reg1/Regfile<1>_8)
+     LUT4:I0->O            1   0.203   0.580  Mmux_out33 (Mmux_out32)
+     LUT6:I5->O            1   0.205   0.000  Mmux_out35_G (N167)
+     MUXF7:I1->O           1   0.140   0.579  Mmux_out35 (out_2_OBUF)
+     OBUF:I->O                 2.571          out_2_OBUF (out<2>)
+    ----------------------------------------
+    Total                      5.801ns (3.566ns logic, 2.235ns route)
+                                       (61.5% logic, 38.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock c1/opcode[5]_opcode[5]_AND_51_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+c2/out         |         |         |    4.533|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock c1/opcode[5]_opcode[5]_OR_130_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+c2/out         |         |         |    4.574|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock c2/out
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+c1/opcode[5]_opcode[5]_AND_51_o|         |    8.568|         |         |
+c1/opcode[5]_opcode[5]_OR_130_o|         |    6.175|         |         |
+c2/out                         |   12.273|         |         |         |
+clk                            |    9.303|    1.729|         |         |
+-------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+c1/opcode[5]_opcode[5]_AND_51_o|         |    8.771|    7.031|         |
+c1/opcode[5]_opcode[5]_OR_130_o|         |    6.378|    4.795|         |
+c2/out                         |   12.476|         |   10.737|         |
+clk                            |    9.506|    1.405|    7.766|         |
+-------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.13 secs
+ 
+--> 
+
+Total memory usage is 275588 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  110 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+
